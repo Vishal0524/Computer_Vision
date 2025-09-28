@@ -67,7 +67,7 @@ A structured explanation of the defect detection pipeline along with flowcharts,
 ---
 
 This document presents the flowchart for our defect detection system, explaining our choice of the final, successful algorithm.
-We selected the 'Local Radial Difference' method after our initial 'Global Standard Deviation' approach proved unreliable, failing by misclassifying good images due to minor pixel noise.
+I selected the 'Local Radial Difference' method after our initial 'Global Standard Deviation' approach proved unreliable, failing by misclassifying good images due to minor pixel noise.
 This final, robust model accurately identifies all true defects by focusing on sharp, localized discontinuities, resolving the initial method's inaccuracies.
 
 ---
